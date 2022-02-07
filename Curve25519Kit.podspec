@@ -20,7 +20,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.ios.deployment_target = "10.0"
 
-  spec.dependency 'CocoaLumberjack'
   spec.dependency 'SignalCoreKit'
   spec.dependency 'SignalClient'
 
